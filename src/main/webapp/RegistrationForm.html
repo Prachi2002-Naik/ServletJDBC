@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+   <style>
+   
+     body{
+       margin-top:0px;
+       padding:3px;
+    }
+       nav{
+          background-color:teal;
+          display:flex;
+          padding:4px;
+          
+       }
+       nav li{
+          display:inline;
+          padding:60px;
+       }
+       ul li a{
+           text-decoration:none;
+          justify-content: space-between;
+          color:white;
+          padding:10px;
+          font-size:20px;
+       }
+       input{
+           height:40px;
+           width:250px;
+           margin-top:15px;
+           text-align:center;
+       }
+       form{
+          margin-top:140px;
+          border:1px solid black;
+          width:400px;
+          height:300px;
+          margin-left:40%;
+       }
+   </style>
+</head>
+<body>
+       <nav>
+          <ul>
+             <li><a href="RegistrationForm.html">Insert</a></li>
+             <li><a href="View">Update</a></li>
+             <li><a href="View">Delete</a></li>
+             <li><a href="View">View</a></li>
+          </ul>
+       </nav>
+      <form name='frm' action='Insert' method='POST'>
+          <center>
+          <input type="text" name="name" value="" class="form-control" placeholder="Enter name">
+          <br><br>
+          <input type="text" name="email" value="" class="form-control" placeholder="Enter email">
+          <br><br>
+          <input type="text" name="age" value="" class="form-control" placeholder="Enter age">
+          <br><br>
+          <input type="submit" name="s" value="Add Values" class="form-control">
+        </center>
+      </form>
+</body>
+</html>
